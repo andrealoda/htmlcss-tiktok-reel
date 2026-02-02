@@ -150,7 +150,8 @@ footer {
 	justify-content:flex-start;
 
 		.box{
-			
+			text-decoration: none;
+			color: #fff;
 			text-align: center;
 			margin: 0 0 2rem 0;
 			i {
