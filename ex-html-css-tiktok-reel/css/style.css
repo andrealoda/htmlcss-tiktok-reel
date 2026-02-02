@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -34,9 +35,11 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-	
+
 	display: flex;
+	align-items: center;
 	color: white;
+	font-weight: 600;
 	padding: 0 1rem;
 
 	a {
@@ -51,8 +54,12 @@ video {
 	.central-link a {
 		margin: 0 0.25rem;
 		color: rgba(255, 255, 255, 0.5);
-
 	}
+
+	#a-white {
+		color: white;
+	}
+
 }
 
 /* Footer */
@@ -66,7 +73,7 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-	
+
 	.footer-top {
 		margin: 0 25% 3% 3%;
 
@@ -76,7 +83,7 @@ footer {
 		margin-bottom: 0.5rem;
 	}
 
-	p > a {
+	p>a {
 		text-decoration: none;
 		color: #fff;
 	}
@@ -85,24 +92,31 @@ footer {
 		display: flex;
 		justify-content: space-around;
 		background-color: black;
-		min-height: 80px;
+		/* min-height: 80px; */
 		padding: 1rem;
 	}
 
 	.box {
-		/* display: flex; */
-		border: 1px solid red;
-		min-width: 80px;
-	}
-
-	.box > div {
-		width: 100%;
+		/* border: 1px solid red; */
 		text-align: center;
+		min-width: 90px;
+		color: rgba(255, 255, 255, 0.5);
+
+		i {
+			font-size: 24px;
+		}
+
+		.internal-box-bottom {
+			font-size: 10px;
+			font-weight: 200;
+		}
+
+	.box-white {
+		color: white;
 	}
 
-	.internal-box-bottom {
-		font-size: 12px;
 	}
+
 
 }
 
@@ -115,6 +129,22 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+	flex-direction: column-reverse;
+	color: white;
+	align-items: center;
+	justify-content: space-between;
+	/* background-color: transparent; */
+
+		.box{
+			text-align: center;
+		}
+		.internal-box-top img {
+			max-width: 50px;
+			
+		}
+
+
 }
 
 /* ---------------------
