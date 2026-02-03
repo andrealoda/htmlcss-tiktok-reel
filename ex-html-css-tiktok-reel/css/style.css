@@ -122,17 +122,51 @@ footer {
 		text-align: center;
 		min-width: 90px;
 		color: rgba(255, 255, 255, 0.5);
+		text-decoration: none;
 
 		i {
 			font-size: 24px;
+			position: relative;
+		}
+
+
+		&.box-white {
+			color: #fff;
 		}
 
 		.internal-box-bottom {
 			font-size: 10px;
 			font-weight: 200;
 		}
+
+		&.central-btn {
+			transform: rotate(90deg);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		
+		i > .num {
+		display: flex;
+		justify-content: center;
+		font-size: 10px;
+		font-weight: 600;
+		width: 20px;
+		color: #fff;
+		background-color: red;
+		border-radius: 10px;
+		top: 0;
+		left: 15px;
+		position: absolute;
+
+	}
+
+
 	}
 }
+
+
 
 /* Sidebar */
 .sidebar {
